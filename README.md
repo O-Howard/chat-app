@@ -57,7 +57,7 @@ The system supports authentication, private messaging, and real-time communicati
 - POST /api/chat/access
 - GET  /api/message/:chatId
 - GET  /api/user/search
-- get  /api/user/:id
+- GET  /api/user/:id
 
 ---
 
