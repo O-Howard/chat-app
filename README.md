@@ -97,5 +97,7 @@ JWT_SECRET=your_secret
 - Message read receipts
 - File/image sharing
 
+---
 
+Live API: https://chat-app-i4ve.onrender.com
 
