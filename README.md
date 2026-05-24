@@ -38,42 +38,42 @@ The system supports authentication, private messaging, and real-time communicati
 
 ## Architecture
 
-Client (Postman / Frontend)
-        ↓
-Express REST API
-        ↓
-Socket.IO Server
-        ↓
-MongoDB Database
+- Client (Postman / Frontend)
+         ↓
+- Express REST API
+         ↓
+- Socket.IO Server
+         ↓
+- MongoDB Database
 
 ---
 
 ## API Routes
 
-POST /api/auth/register
-POST /api/auth/login
-GET  /api/auth/:profile
-GET  /api/chat/chats
-POST /api/chat/access
-GET  /api/message/:chatId
-GET  /api/user/search
-get  /api/user/:id
+- POST /api/auth/register
+- POST /api/auth/login
+- GET  /api/auth/:profile
+- GET  /api/chat/chats
+- POST /api/chat/access
+- GET  /api/message/:chatId
+- GET  /api/user/search
+- get  /api/user/:id
 
 ---
 
 ## Socket Events
 
-join_chat
-send_message
-receive_message
+- join_chat
+- send_message
+- receive_message
 
 ---
 
 ## Installation
 
-git clone https://github.com/O-Howard/chat-app
-cd chat-app
-npm install
+- git clone https://github.com/O-Howard/chat-app
+- cd chat-app
+- npm install
 
 ---
 
@@ -85,9 +85,9 @@ npm run dev
 
 ## Environment Variables
 
-PORT=5000
-MONGO_URI=your_mongo_url
-JWT_SECRET=your_secret
+- PORT=5000
+- MONGO_URI=your_mongo_url
+- JWT_SECRET=your_secret
 
 ---
 
